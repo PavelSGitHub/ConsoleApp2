@@ -12,7 +12,7 @@ namespace ConsoleApp2
             //Console.WriteLine(TwoSum(new[] { 1234, 5678, 9012 }, 14690)[0] + " " + TwoSum(new[] { 1234, 5678, 9012 }, 14690)[1]);
 
             Console.WriteLine(AntBridge("GFEDCBA", "-.-.-.-.-"));
-
+            //test
         }
 
         public static string AntBridge(string ants, string terrain)
