@@ -11,8 +11,44 @@ namespace ConsoleApp2
             //Robot vicky = new Robot();
             //Console.WriteLine(TwoSum(new[] { 1234, 5678, 9012 }, 14690)[0] + " " + TwoSum(new[] { 1234, 5678, 9012 }, 14690)[1]);
 
-            Console.WriteLine(AntBridge("GFEDCBA", "-.-.-.-.-"));
+            Console.WriteLine(BouncyRatio(0.999d));
 
+        }
+
+        //https://www.codewars.com/kata/562b099becfe844f3800000a/train/csharp
+        public static int BouncyRatio(double p)
+        {
+            if (p < 0 || p > 0.99) throw new ArgumentException("input cannot be less than 0.1 or greater than 0.99");
+            if (p == 0) return 1;
+            int bouncy = 0;
+            var ratio = 0d;
+            bool inc = false;
+            bool dec = false;
+            int i = 0;
+            while (ratio < p)
+            {
+                i++;
+                var s = i.ToString();
+                for (int j = 0; j < s.Length - 1 && (!inc || !dec); j++)
+                {
+                    if (s[j] < s[j + 1])
+                    {
+                        inc = true;
+                    }
+                    else if (s[j] > s[j + 1])
+                    {
+                        dec = true;
+                    }
+                }
+                if (inc && dec)
+                {
+                    bouncy++;
+                }
+                inc = false;
+                dec = false;
+                ratio = bouncy / (double)i;
+            }
+            return i;
         }
 
         public static string AntBridge(string ants, string terrain)
