@@ -11,11 +11,7 @@ namespace ConsoleApp2
             //Robot vicky = new Robot();
             //Console.WriteLine(TwoSum(new[] { 1234, 5678, 9012 }, 14690)[0] + " " + TwoSum(new[] { 1234, 5678, 9012 }, 14690)[1]);
 
-            Console.WriteLine(RotateMatrix.RotateLikeAVortex(new int[][] {
-                                 new int[] { 5, 3, 6, 1 },
-                                 new int[] { 5, 8, 7, 4 },
-                                 new int[] { 1, 2, 4, 3 },
-                                 new int[] { 3, 1, 2, 2 } }));
+            Console.WriteLine(PrimeOperationsKata.PrimeOperations(16, 2));
 
         }
 
