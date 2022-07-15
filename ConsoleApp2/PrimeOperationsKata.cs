@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//https://www.codewars.com/kata/58a3e2978bdda5a0d9000187/csharp
+
 namespace ConsoleApp2
 {
     internal class PrimeOperationsKata
