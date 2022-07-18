@@ -11,8 +11,8 @@ namespace ConsoleApp2
             //Robot vicky = new Robot();
             //Console.WriteLine(TwoSum(new[] { 1234, 5678, 9012 }, 14690)[0] + " " + TwoSum(new[] { 1234, 5678, 9012 }, 14690)[1]);
 
-            Console.WriteLine(PrimeOperationsKata.PrimeOperations(4, 6));
-
+            Console.WriteLine(MySmallestCodeInterpreter.BrainLuck(",>,<[>[->+>+<<]>>[-<<+>>]<<<-]>>.", char.ConvertFromUtf32(8) + char.ConvertFromUtf32(9)));
+   
         }
 
         //https://www.codewars.com/kata/562b099becfe844f3800000a/train/csharp
