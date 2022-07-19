@@ -11,7 +11,7 @@ namespace ConsoleApp2
             //Robot vicky = new Robot();
             //Console.WriteLine(TwoSum(new[] { 1234, 5678, 9012 }, 14690)[0] + " " + TwoSum(new[] { 1234, 5678, 9012 }, 14690)[1]);
 
-            Console.WriteLine(StringCleaning.StringClean("as1dd2sa"));
+            Console.WriteLine(AStrangeTripToTheMarket.IsLockNessMonster("Yo, I heard you were on the lookout for Nessie. Let me know if you need assistance."));
    
         }
 
