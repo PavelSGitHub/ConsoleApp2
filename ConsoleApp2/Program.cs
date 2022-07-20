@@ -11,7 +11,7 @@ namespace ConsoleApp2
             //Robot vicky = new Robot();
             //Console.WriteLine(TwoSum(new[] { 1234, 5678, 9012 }, 14690)[0] + " " + TwoSum(new[] { 1234, 5678, 9012 }, 14690)[1]);
 
-            Console.WriteLine(DigitsExplosion.Explode("312"));
+            Console.WriteLine(RemoveAllExclamationMarksFromTheEndOfWords.Remove("!!!Hi !!hi!!! !hi"));
    
         }
 
