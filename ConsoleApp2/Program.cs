@@ -11,7 +11,11 @@ namespace ConsoleApp2
             //Robot vicky = new Robot();
             //Console.WriteLine(TwoSum(new[] { 1234, 5678, 9012 }, 14690)[0] + " " + TwoSum(new[] { 1234, 5678, 9012 }, 14690)[1]);
 
-            Console.WriteLine(RemoveAllExclamationMarksFromTheEndOfWords.Remove("!!!Hi !!hi!!! !hi"));
+            var rand = new Random();
+            var arr = new int[387645];
+            arr = Enumerable.Range(0, 387645).Select(i => rand.Next(15001)).ToArray();
+
+            Console.WriteLine(CitySwim2D.RainVolume(new[] { 1, 5, 1 }));
    
         }
 
