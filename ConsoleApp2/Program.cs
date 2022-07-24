@@ -14,36 +14,8 @@ namespace ConsoleApp2
             var rand = new Random();
             var arr = new int[387645];
             arr = Enumerable.Range(0, 387645).Select(i => rand.Next(15001)).ToArray();
-            var s = new char[][]
-            {
-               //0123456789012345678901234567890123
-                                //0
-                "4----------------+---------------7".ToCharArray(),
-                "|                                |".ToCharArray(),
-                "|                                |".ToCharArray(),
-                "|          U        D            |".ToCharArray(),
-                "|     L                          |".ToCharArray(),
-                "|              R                 |".ToCharArray(),
-                "|           L                    |".ToCharArray(),
-                "|  U                             +".ToCharArray(), //1
-          /*3*/ "+        U    D                  |".ToCharArray(),
-                "|         L              R       |".ToCharArray(),
-                "|                                |".ToCharArray(),
-                "5----------------+---------------6".ToCharArray()
-                                //2
-            };
 
-            var s1 = new char[][]
-            {  //0123456789012345
-               //+-1-+|2|+-3-+|4|
-                "+-1-+".ToCharArray(),
-                "|R  |".ToCharArray(),
-                "4 R 2".ToCharArray(),
-                "|  R|".ToCharArray(),
-                "+-3-+".ToCharArray()
-            };
-
-            Console.WriteLine(CockroachBugScatter.Cockroaches(s));
+            Console.WriteLine(Weird_words.NextLetter("abczABCZ"));
 
         }
 
