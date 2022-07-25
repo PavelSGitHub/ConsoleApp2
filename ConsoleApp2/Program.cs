@@ -15,7 +15,7 @@ namespace ConsoleApp2
             var arr = new int[387645];
             arr = Enumerable.Range(0, 387645).Select(i => rand.Next(15001)).ToArray();
 
-            Console.WriteLine(Weird_words.NextLetter("abczABCZ"));
+            Console.WriteLine(BananasKata.Bananas("bbananana"));
 
         }
 
