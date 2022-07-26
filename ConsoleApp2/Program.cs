@@ -15,7 +15,7 @@ namespace ConsoleApp2
             var arr = new int[387645];
             arr = Enumerable.Range(0, 387645).Select(i => rand.Next(15001)).ToArray();
 
-            Console.WriteLine(RemoveAnchorFromURL.RemoveUrlAnchor("www.codewars.com/katas/"));
+            Console.WriteLine(FindTheLongestGap.Gap(529));
 
         }
 
