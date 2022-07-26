@@ -15,7 +15,15 @@ namespace ConsoleApp2
             var arr = new int[387645];
             arr = Enumerable.Range(0, 387645).Select(i => rand.Next(15001)).ToArray();
 
-            Console.WriteLine(FindTheLongestGap.Gap(529));
+            Console.WriteLine(Simple_Fun_320_Scratch_lottery_I.Scratch(new string[]
+        {
+          "tiger tiger tiger 100",
+          "rabbit dragon snake 100",
+          "rat ox pig 1000",
+          "dog cock sheep 10",
+          "horse monkey rat 5",
+          "dog dog dog 1000"
+        }));
 
         }
 
