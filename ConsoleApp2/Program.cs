@@ -15,7 +15,7 @@ namespace ConsoleApp2
             var arr = new int[387645];
             arr = Enumerable.Range(0, 387645).Select(i => rand.Next(15001)).ToArray();
 
-            Console.WriteLine(Valid_Parentheses.ValidParentheses(")(()))"));
+            Console.WriteLine(Simple_assembler_interpreter.Interpret(new[] { "mov a -10", "mov b a", "inc a", "dec b", "jnz a -2" }));
 
         }
 
